@@ -34,3 +34,5 @@ app.use(errorMiddleware);
 app.listen(3001, () => {
   console.log("Server berjalan di port 3001");
 });
+
+module.exports=app
