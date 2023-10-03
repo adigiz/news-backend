@@ -16,7 +16,6 @@ const errorMiddleware = require("./middlewares/errorMiddleware");
 // inisiasi express
 const app = express();
 
-
 dotenv.config();
 
 app.use(cors());
